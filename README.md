@@ -16,15 +16,17 @@ And then switch to your terminal and execute:
 
 ## Usage
 To use skeleton_sass, simply head on over to `application.css` and rename it to `application.css.scss` so it can handle Sass properly. Then at the bottom of the file, add:
-    
-    @import 'skeleton';
-    
+
+```sass
+@import 'skeleton';
+```
+
 An alternative is to include `*= skeleton` in the comments of the manifest file, however this method will _not_ let you change the default variables or let you have access to the variables in your other css/scss files.
 
 ## Changing Default Variables
 The nice thing about the Sass version of Skeleton is that you can change any of the default variables by overriding them. Here's a list of all the variables along with their default values:
 
-```css
+```sass
 
 /* Default Variables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -63,7 +65,7 @@ $global-radius:4px;
 
 To override any of the defaults, simply assign the variables **before** the import statement, like so:
 
-```css
+```sass
 // app/assets/stylesheets/application.css.scss
 
 $primary-color: orange;
