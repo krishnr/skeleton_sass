@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = SkeletonSass::VERSION
   spec.authors       = ["Krishn Ramesh"]
   spec.email         = ["krishnr@gmail.com"]
-  spec.summary       = %q{Includes a SASS version of the Skeleton CSS framework in your Rails app}
+  spec.summary       = %q{Packages a SASS version of the Skeleton CSS framework}
   spec.description   = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/krishnr/skeleton_sass"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
