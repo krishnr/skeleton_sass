@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SkeletonSass::VERSION
   spec.authors       = ["Krishn Ramesh"]
   spec.email         = ["krishnr@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Includes a SASS version of the Skeleton CSS framework in your Rails app}
+  spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
