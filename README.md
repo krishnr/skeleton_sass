@@ -24,7 +24,7 @@ An alternative is to include `*= skeleton` in the comments of the manifest file,
 ## Changing Default Variables
 The nice thing about the Sass version of Skeleton is that you can change any of the default variables by overriding them. Here's a list of all the variables along with their default values:
 
-```sass
+```css
 
 /* Default Variables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -63,7 +63,7 @@ $global-radius:4px;
 
 To override any of the defaults, simply assign the variables **before** the import statement, like so:
 
-```sass
+```css
 // app/assets/stylesheets/application.css.scss
 
 $primary-color: orange;
