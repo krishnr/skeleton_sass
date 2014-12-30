@@ -1,5 +1,7 @@
 # SkeletonSass
 
+[![Gem Version](https://badge.fury.io/rb/skeleton_sass.svg)](http://badge.fury.io/rb/skeleton_sass)
+
 [This gem](https://rubygems.org/gems/skeleton_sass) packages a Sass version of the lightweight [Skeleton CSS boilerplate](http://getskeleton.com/) for your Rails app. The gem is currently on v0.0.1 and uses Skeleton v2.0.1; I’ll do my best to keep it up to date with newer Skeleton versions.
 
 ## Installation
